@@ -1,0 +1,391 @@
+﻿Begin Form *
+    Background = "&Hffffff"
+    Caption = "VolumeCalculator"
+    DockTitleVisible = True
+    DrawOnPaint = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 393
+    LoadedHeight = 390
+    LoadedWidth = 578
+    LoadedX = 316
+    LoadedY = 32
+    MouseTracking = True
+    Opacity = 100
+    Resizable = True
+    SQLDelete = True
+    SQLInsert = True
+    SQLUpdate = True
+    Visible = True
+    Width = 578
+    X = 316
+    Y = 32
+
+
+  Begin Label lbl1
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = ""
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    FontSize = 30
+    GlobalX = 0
+    GlobalY = 0
+    Height = 53
+    LoadedHeight = 53
+    LoadedWidth = 481
+    LoadedX = 47
+    LoadedY = 258
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 481
+    WordWrap = True
+    X = 47
+    Y = 257
+  End
+
+  Begin CommandButton cmdcal
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Calculate"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    FontColor = "&H081AFF"
+    FontSize = 20
+    GlobalX = 0
+    GlobalY = 0
+    Height = 51
+    LoadedHeight = 51
+    LoadedWidth = 140
+    LoadedX = 388
+    LoadedY = 128
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 140
+    X = 387
+    Y = 129
+  End
+
+  Begin CommandButton cmdquit
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Quit"
+    Checked = False
+    DrawOnPaint = True
+    Enabled = True
+    Flat = False
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 34
+    LoadedHeight = 34
+    LoadedWidth = 72
+    LoadedX = 490
+    LoadedY = 332
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 72
+    X = 490
+    Y = 332
+  End
+
+  Begin RadioButton RadioCylinder
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Cylinder"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 41
+    LoadedY = 40
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 120
+    X = 41
+    Y = 40
+  End
+
+  Begin RadioButton RadioSphere
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Sphere"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 40
+    LoadedY = 114
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 120
+    X = 40
+    Y = 114
+  End
+
+  Begin RadioButton Radiocube
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Caption = "Cube"
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 0
+    GlobalX = 0
+    GlobalY = 0
+    Height = 30
+    LoadedHeight = 30
+    LoadedWidth = 120
+    LoadedX = 40
+    LoadedY = 187
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    TabIndex = 0
+    TimerInterval = 0
+    Visible = True
+    Width = 120
+    X = 40
+    Y = 187
+  End
+
+  Begin ImageBox imgCube
+    Background = "cube.gif"
+    BoxIndex = 0
+    BoxX = 0
+    BoxY = 0
+    Cursor = ""
+    DrawOnPaint = True
+    Enabled = True
+    FocusOrder = 1
+    GlobalX = 0
+    GlobalY = 0
+    Height = 220
+    LoadedHeight = 220
+    LoadedWidth = 200
+    LoadedX = 168
+    LoadedY = 26
+    ParentControl = ""
+    ParentIndex = 0
+    SplitIndex = 0
+    StringValue = ""
+    TabIndex = 0
+    TableViewOrder = 0
+    TableViewVisible = True
+    TableViewWidth = 0
+    TimerInterval = 0
+    Visible = False
+    Width = 200
+    X = 178
+    Y = 28
+  End
+
+  Begin ImageBox imgCylinder
+    Background = "cylinder.png"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 190
+    ParentControl = ""
+    StringValue = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 220
+    X = 154
+    Y = 42
+  End
+
+  Begin ImageBox imgSphere
+    Background = "sphere.png"
+    DrawOnPaint = True
+    Enabled = True
+    GlobalX = 0
+    GlobalY = 0
+    Height = 200
+    ParentControl = ""
+    StringValue = ""
+    TabIndex = 0
+    TableViewVisible = True
+    Visible = False
+    Width = 195
+    X = 155
+    Y = 53
+  End
+
+End Form
+/*
+Author:Yuya Oguchi
+9/28/12
+Version1.1
+*/
+
+
+/*
+Example
+Private Sub CommandButton1_OnEvent()
+	dim myTemp as single
+	myTemp=Val(textbox1.value)
+	Display.caption = CtoF (myTemp)
+End Sub
+
+Function CtoF(cTemp as single) As single
+	return 9/5 * cTemp + 32.5
+End Function
+*/
+
+/* Quit */
+Private Sub cmdquit_OnEvent()
+  end
+End Sub
+
+/* PI */
+const PI as single = 3.1415
+
+
+/* click Calculate cmd to pop up windows to type in numbers.
+the volume of the shape is decided based on what radio shape was picked*/
+Private Sub cmdCal_OnEvent()
+
+/* Calculate Cylinder: when click calculate, use CylinderVolume function*/  
+if radiocylinder.value=true then
+     
+  Dim CRadius as single
+  CRadius = Val(inputbox("what is the radius of the cylinder?"))
+  Dim CHeight as single
+  CHeight = Val(inputbox("what is the height of the cylinder?"))
+  lbl1.caption = "Volume is " & CylinderVolume (CRadius,CHeight)  
+  /* show cylinder image and turn off all the other img visible*/
+  imgCylinder.visible = True
+  imgSphere.visible = False
+  imgcube.visible = False
+  end if
+
+
+/* Calculate Sphere: when click calculate, use SphereVolume function*/
+if radiosphere.value=true then
+  
+  Dim Sradius as single
+  Sradius = Val(inputbox("what us the radius of the Sphere?"))
+  lbl1.caption = "Volume is " & SphereVolume (SRadius)  
+  /* show Sphere image and turn off all the other img visible*/
+  imgSphere.visible = True
+  imgCylinder.visible = False
+  imgcube.visible = False
+  end if 
+  
+  
+/* Calculate Cube: when click calculate, use CubeVolume function*/  
+If radioCube.value=true then
+  
+  Dim CWidth as single
+  Cwidth = Val(inputbox("what is the width of the cube?"))
+  Dim CLength as single
+  CLength = Val(inputbox("what is the length of the cube?"))
+  Dim C1Height as single
+  C1Height = Val(inputbox("what is the length of the cube?"))
+  lbl1.caption ="Volume is " & CubeVolume (CWidth,CLength,C1Height)
+  /* show Cube image and turn off all the other img visible*/
+  imgcube.visible = True
+  imgCylinder.visible = False
+  imgSphere.visible = False
+ end if
+  
+End Sub
+
+
+/* Function for Cylinder*/
+Function CylinderVolume (CRadius as single ,CHeight as single ) As single
+      Return CRadius^2 * PI * CHeight
+
+End Function
+
+
+
+
+/* Function for Sphere */
+Function SphereVolume (SRadius as single) as single
+      Return 3/4 * PI * SRadius^3
+      
+End Function
+
+
+
+/* Function for Cube*/
+Function CubeVolume (CWidth as single ,CLength as single , C1Height as single ) as single
+      Return CWidth * CLength * C1Height
+      
+End Function
+
+
+/*
+when RadioCylinder selected, disable RadioSphere and RadioCube
+so that when select calculate, the software knows that you selected radiocylinder
+*/
+Private Sub RadioCylinder_OnEvent()
+  RadioSphere.value = False
+  RadioCube.value = False
+End Sub
+
+
+
+/*
+when RadioSphere selected, disable RadioCylinder and RadioCube
+so that when select calculate, the software knows that you selected RadioSphere
+*/
+Private Sub RadioSphere_OnEvent()
+  RadioCube.value = False
+  RadioCylinder.value = False
+End Sub
+
+
+/*
+when RadioCube selected, disable RadioCylinder and RadioSphere
+so that when select calculate, the software knows that you selected RadioCube
+*/
+Private Sub RadioCube_OnEvent()
+  RadioSphere.value = False
+  RadioCylinder.value = False
+End Sub
+
